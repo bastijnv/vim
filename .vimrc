@@ -82,7 +82,7 @@ map <C-t> :tabn<Enter>
 map <C-n> :tabnew<Enter>
 map nt :NERDTreeTabsToggle<Enter>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-let g:NERDTreeDirArrows=0
+set encoding=utf-8  "fix fancy arrows on remote machines
 
 " DBExt -----------------------------------------
 let g:dbext_default_profile_mysql_local = 'type=MYSQL:user=root:passwd=:dbname=moonshot'
