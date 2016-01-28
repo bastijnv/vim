@@ -1,7 +1,7 @@
 # vim
 Repo intended to quickly setup VIM on any remote machine
 
-## install procedure
+## Install procedure
 ```bash
 cd ~
 git init .
@@ -10,3 +10,6 @@ git checkout master
 
 vim +PluginInstall +qall
 ```
+
+## Result
+![vim screenshot](vim.png)
