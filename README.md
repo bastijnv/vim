@@ -7,7 +7,7 @@ cd ~
 git init .
 git remote add -t \* -f origin https://github.com/bastijnv/vim.git
 git checkout master
-
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
 
